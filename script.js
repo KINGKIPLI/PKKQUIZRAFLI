@@ -1,74 +1,87 @@
 const questions = [
+  // Pasal 4
   {
     question: "Apa yang diatur dalam Pasal 4 Undang-Undang Hak Cipta?",
     answers: [
-      { text: "Jenis ciptaan yang dilindungi", correct: true },
+       { text: "Hak moral pencipta", correct: false },
       { text: "Sanksi pidana pelanggaran hak cipta", correct: false },
       { text: "Masa berlaku hak cipta", correct: false },
-      { text: "Hak moral pencipta", correct: false },
+     { text: "Jenis ciptaan yang dilindungi", correct: true },
     ],
   },
   {
+    question: "Contoh ciptaan yang dilindungi menurut Pasal 4 adalah...",
+    answers: [
+      { text: "Rumor publik", correct: false }, 
+      { text: "Ide atau gagasan yang belum diwujudkan", correct: false },
+      { text: "Konsep bisnis", correct: false },
+     { text: "Musik, karya tulis, dan program komputer", correct: true },
+    ],
+  },
+  // Pasal 5
+  {
     question: "Pasal 5 Hak Cipta menjelaskan tentang...",
     answers: [
-      { text: "Hak moral pencipta", correct: true },
-      { text: "Hak ekonomi pencipta", correct: false },
+    { text: "Hak ekonomi pencipta", correct: false },
+        { text: "Hak moral pencipta", correct: true },
       { text: "Prosedur pendaftaran ciptaan", correct: false },
       { text: "Ciptaan yang tidak dilindungi", correct: false },
     ],
   },
   {
+    question: "Apa yang dimaksud dengan hak moral dalam Pasal 5?",
+    answers: [
+      { text: "Hak pencipta untuk tetap diakui sebagai pencipta ciptaan", correct: true },
+      { text: "Hak untuk menjual ciptaan", correct: false },
+      { text: "Hak untuk menggandakan ciptaan", correct: false },
+      { text: "Hak untuk mencabut izin ciptaan", correct: false },
+    ],
+  },
+  // Pasal 6
+  {
     question: "Pasal 6 Hak Cipta menjelaskan tentang...",
     answers: [
-      { text: "Pencipta sebagai pemegang hak cipta pertama", correct: true },
+    { text: "Lisensi hak cipta", correct: false },
       { text: "Pemindahan hak cipta", correct: false },
-      { text: "Lisensi hak cipta", correct: false },
+       { text: "Pencipta sebagai pemegang hak cipta pertama", correct: true }, 
       { text: "Ciptaan untuk pendidikan", correct: false },
-    ],
-  },
-  {
-    question: "Menurut Pasal 4, apa contoh ciptaan yang dilindungi?",
-    answers: [
-      { text: "Program komputer dan musik", correct: true },
-      { text: "Ide yang belum diwujudkan", correct: false },
-      { text: "Metode bisnis", correct: false },
-      { text: "Rumor publik", correct: false },
-    ],
-  },
-  {
-    question: "Apa yang menjadi hak moral utama dalam Pasal 5?",
-    answers: [
-      { text: "Hak untuk tetap mencantumkan nama pencipta", correct: true },
-      { text: "Hak untuk menjual ciptaan", correct: false },
-      { text: "Hak untuk memodifikasi ciptaan orang lain", correct: false },
-      { text: "Hak untuk mencabut izin publikasi", correct: false },
     ],
   },
   {
     question: "Siapa pemegang hak cipta pertama menurut Pasal 6?",
     answers: [
-      { text: "Pencipta karya tersebut", correct: true },
       { text: "Penerbit", correct: false },
+      { text: "Pencipta karya tersebut", correct: true },
       { text: "Negara", correct: false },
       { text: "Lembaga pendidikan", correct: false },
     ],
   },
+  // Pasal 7
   {
-    question: "Ciptaan seperti lagu dan puisi termasuk dalam pasal berapa?",
+    question: "Pasal 7 Hak Cipta mengatur tentang apa?",
     answers: [
-      { text: "Pasal 4", correct: true },
-      { text: "Pasal 5", correct: false },
-      { text: "Pasal 6", correct: false },
-      { text: "Pasal 7", correct: false },
+     { text: "Hak moral pencipta", correct: false },
+      { text: "Jenis ciptaan yang dilindungi", correct: false },
+       { text: "Ciptaan yang dibuat dalam hubungan dinas atau pesanan", correct: true },
+      { text: "Ciptaan yang sudah berakhir masa perlindungannya", correct: false },
     ],
   },
   {
-    question: "Hak moral dalam Pasal 5 berarti pencipta memiliki hak untuk?",
+    question: "Jika suatu karya dibuat dalam hubungan kerja, siapa pemegang hak cipta menurut Pasal 7?",
     answers: [
-      { text: "Dihargai dan diakui sebagai pencipta", correct: true },
-      { text: "Menjual ciptaannya", correct: false },
-      { text: "Memberikan lisensi pada pihak lain", correct: false },
-      { text: "Menggandakan ciptaan", correct: false },
+      { text: "Pihak pemberi kerja, kecuali diperjanjikan lain", correct: true },
+      { text: "Pekerja secara mutlak", correct: false },
+      { text: "Pemerintah", correct: false },
+      { text: "Tidak ada yang berhak", correct: false },
+    ],
+  },
+  {
+    question: "Dalam Pasal 7, jika sebuah ciptaan dipesan oleh pihak lain, maka hak cipta ada pada...",
+    answers: [
+       { text: "Publik", correct: false },
+      { text: "Pencipta tetap", correct: false },
+      { text: "Pemerintah", correct: false },
+     { text: "Pihak yang memesan, kecuali diperjanjikan lain", correct: true },
     ],
   },
 ];
