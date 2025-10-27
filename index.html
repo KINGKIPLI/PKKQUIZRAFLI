@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuis Pasal HAKI 4, 5, dan 6</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Kuis Pasal HAKI</h1>
+      <p class="subtitle">Uji pengetahuanmu tentang Pasal 4, 5, dan 6 Hak Cipta 🇮🇩</p>
+
+      <!-- Halaman Awal (Input Nama) -->
+      <div id="start-screen">
+        <input type="text" id="name-input" placeholder="Masukkan namamu..." />
+        <button id="start-btn" class="btn">Mulai Kuis</button>
+      </div>
+
+      <!-- Kotak Pertanyaan -->
+      <div id="quiz-box" class="hidden">
+        <div id="question"></div>
+        <div id="answer-buttons" class="btn-grid"></div>
+        <button id="next-btn" class="next-btn">Pertanyaan Selanjutnya</button>
+      </div>
+
+      <!-- Hasil Akhir -->
+      <div id="result" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
